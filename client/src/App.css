@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.App {
+  margin: 30px;
+}
+
+body {
+  background-color: lightsteelblue;
+  font-family: "Bebas Neue", cursive;
+}
+
+label {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h1 {
+  color: tomato;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: wheat;
+}
+
+button {
+  background-color: wheat;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+button:hover {
+  background-color: salmon;
+  cursor: pointer;
+}
+
+input {
+  background-color: wheat;
+  margin-left: 10px;
+  height: 20px;
+  margin-top: 10px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 15px;
+}
+
+select {
+  background-color: wheat;
+  margin-left: 15px;
+  margin-top: 10px;
+  height: 30px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+}
+
+.vehicles {
+  margin-left: 60px;
+}
+
+.vehicles p {
+  font-size: 20px;
+}
+
+.vehicles p span {
+  color: salmon;
+}
+
+.Add {
+  background-color: sandybrown;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 20px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.Update {
+  background-color: teal;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.Delete {
+  background-color: lightcoral;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+#radio p {
+  display: inline;
+  margin-left: 5px;
+}
